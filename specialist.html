@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=2, minimum-scale=1.0"
+    />
+    <meta name="author" content="marketing-technology" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="preload"
+      href="statics/fonts/Formular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="statics/fonts/Formular-Light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="statics/fonts/Formular-Black.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="statics/fonts/Formular-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="statics/fonts/Inter-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="statics/fonts/Inter-LightBETA.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="statics/fonts/Inter-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="statics/fonts/Inter-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="statics/fonts/Inter-SemiBold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="statics/css/specialist.css" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="statics/img/favicon/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="statics/img/favicon/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="statics/img/favicon/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="statics/img/favicon/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="statics/img/favicon/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="statics/img/favicon/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="statics/img/favicon/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="statics/img/favicon/apple-touch-icon-152x152.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="statics/img/favicon/favicon-196x196.png"
+      sizes="196x196"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="statics/img/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="statics/img/favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="statics/img/favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="statics/img/favicon/favicon-128.png"
+      sizes="128x128"
+    />
+    <meta name="application-name" content="marketing-technology" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="statics/img/favicon/mstile-144x144.png"
+    />
+    <meta
+      name="msapplication-square70x70logo"
+      content="statics/img/favicon/mstile-70x70.png"
+    />
+    <meta
+      name="msapplication-square150x150logo"
+      content="statics/img/favicon/mstile-150x150.png"
+    />
+    <meta
+      name="msapplication-wide310x150logo"
+      content="statics/img/favicon/mstile-310x150.png"
+    />
+    <meta
+      name="msapplication-square310x310logo"
+      content="statics/img/favicon/mstile-310x310.png"
+    />
+    <link
+      rel="icon"
+      href="statics/img/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="marketing-technology" />
+    <meta property="og:locale" content="ru_RU" />
+    <title>Вызвать специалиста</title>
+    <meta property="og:title" content="Вызвать специалиста" />
+  </head>
+
+  <body>
+    <main class="wrapper">
+      <header class="header" data-element="header">
+        <div class="header__cont cont">
+          <div class="header__area">
+            <a class="header__logo" href="/">
+              <img
+                class="header__logo-image"
+                src="statics/img/logo.png"
+                alt=""
+              />
+              <div class="header__logo-text">
+                Аренда
+                <span>Антижучков</span>.рф
+              </div>
+            </a>
+            <div class="header__burger" data-element="header__burger">
+              <div class="header__burger-line"></div>
+            </div>
+            <div class="header__mobile">
+              <div class="header__mobile-inner">
+                <div class="header__mobile-top">
+                  <a class="header__logo" href="/">
+                    <img
+                      class="header__logo-image"
+                      src="statics/img/logo.png"
+                      alt=""
+                    />
+                    <div class="header__logo-text">
+                      Аренда
+                      <span>Антижучков</span>.рф
+                    </div>
+                  </a>
+                  <div class="header__close" data-element="header__close"></div>
+                </div>
+                <div class="header__list">
+                  <div class="header__item">
+                    <div class="header__link header__link_dropdown">
+                      Поиск прослушки
+                    </div>
+                    <div class="header__dropdown-list">
+                      <a class="header__link link-underline" href="#"
+                        >пункт 1</a
+                      >
+                      <a class="header__link link-underline" href="#"
+                        >пункт 2</a
+                      >
+                      <a class="header__link link-underline" href="#"
+                        >пункт 3</a
+                      >
+                    </div>
+                  </div>
+                  <div class="header__item">
+                    <div class="header__link header__link_dropdown">
+                      Защита от прослушки
+                    </div>
+                    <div class="header__dropdown-list">
+                      <a class="header__link link-underline" href="#"
+                        >пункт 1</a
+                      >
+                      <a class="header__link link-underline" href="#"
+                        >пункт 2</a
+                      >
+                      <a class="header__link link-underline" href="#"
+                        >пункт 3</a
+                      >
+                    </div>
+                  </div>
+                  <div class="header__item">
+                    <a class="header__link link-underline" href="#"
+                      >Вызвать специалиста</a
+                    >
+                  </div>
+                  <div class="header__item">
+                    <a class="header__link link-underline" href="#"
+                      >Полезные статьи</a
+                    >
+                  </div>
+                  <div class="header__item">
+                    <a class="header__link link-underline" href="#">Контакты</a>
+                  </div>
+                </div>
+                <div class="header__contacts">
+                  <a
+                    class="header__phone link-underline"
+                    href="tel:+74951234567"
+                    >+7 (495) 123-45-67</a
+                  >
+                  <a class="header__button btn-yellow" href="#"
+                    >Отправить заявку</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="cap cap_specialist">
+        <img
+          class="cap__bg"
+          src="statics/img/cap/cap-bg_specialist.jpg"
+          alt=""
+        />
+        <div class="cap__cont cont">
+          <div class="cap__area">
+            <h1 class="cap__title caption">
+              <div>
+                <span>Поиск прослушки, жучков и скрытых камер</span>
+              </div>
+              опытным специалистом
+            </h1>
+          </div>
+        </div>
+      </section>
+      <section class="text-block text-block_specialist">
+        <div class="text-block__cont cont">
+          <div class="text-block__area">
+            <h2 class="text-block__title caption">
+              Аренда оборудовани <span>сместе со специалистом</span>
+            </h2>
+          </div>
+          <p class="text-block__text">
+            Что делать, если у вас нет возможности нанять профессиональную
+            команду для поиска жучков и прослушки в ваших помещениях? Причин
+            этому может быть множество: вы хотите все сделать сами, высокая
+            стоимость услуг, невозможность провести специалиста на территорию
+            предприятия или вы находитесь в одном из отдаленных регионов нашей
+            необъятной Родины.
+          </p>
+          <p class="text-block__text">
+            Выход есть - взять приборы для поиска прослушки в аренду! Вы
+            получите весь необходимый инструментарий для выявления всех видов
+            прослушивающих устройств (специальных технических средств негласного
+            получения информации (СТСНПИ)). Все оборудование будет
+            профессиональное, а значит будет обеспечен отличный результат! И не
+            бойтесь, что у вас не получится! В нашем комплекте подобраны такие
+            модели приборов, какими может пользоваться даже новичок. А вместе с
+            услугой аренды, вы получите курс по их использованию - абсолютно
+            бесплатно!
+          </p>
+        </div>
+      </section>
+      <section class="set set_specialist">
+        <div class="set__cont cont">
+          <div class="set__header">
+            <h2 class="set__title caption">
+              Комплект оборудования в&nbsp;аренду
+            </h2>
+          </div>
+          <div class="set__box">
+            <picture class="set__picture">
+              <img class="set__image" src="statics/img/set/set-1.jpg" alt="" />
+            </picture>
+            <div class="set__inner">
+              <div class="set__top">
+                <div class="set__headline">Название оборудования</div>
+                <div class="set__number">01</div>
+              </div>
+              <p class="set__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled.
+              </p>
+            </div>
+          </div>
+          <div class="set__box set__box_left">
+            <picture class="set__picture">
+              <img class="set__image" src="statics/img/set/set-2.jpg" alt="" />
+            </picture>
+            <div class="set__inner">
+              <div class="set__top">
+                <div class="set__headline">Название оборудования</div>
+                <div class="set__number">02</div>
+              </div>
+              <p class="set__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled.
+              </p>
+            </div>
+          </div>
+          <div class="set__box">
+            <picture class="set__picture">
+              <img class="set__image" src="statics/img/set/set-3.jpg" alt="" />
+            </picture>
+            <div class="set__inner">
+              <div class="set__top">
+                <div class="set__headline">Название оборудования</div>
+                <div class="set__number">03</div>
+              </div>
+              <p class="set__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled.
+              </p>
+            </div>
+          </div>
+          <div class="set__box set__box_left">
+            <picture class="set__picture">
+              <img class="set__image" src="statics/img/set/set-4.jpg" alt="" />
+            </picture>
+            <div class="set__inner">
+              <div class="set__top">
+                <div class="set__headline">Название оборудования</div>
+                <div class="set__number">04</div>
+              </div>
+              <p class="set__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled.
+              </p>
+            </div>
+          </div>
+          <div class="set__box set__box_last">
+            <picture class="set__picture">
+              <img class="set__image" src="statics/img/set/set-5.jpg" alt="" />
+            </picture>
+            <div class="set__inner">
+              <div class="set__top">
+                <div class="set__headline">Название оборудования</div>
+                <div class="set__number">05</div>
+              </div>
+              <p class="set__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img class="layer-1" src="statics/img/layer-1.jpg" />
+      <section class="types">
+        <div class="types__cont cont">
+          <h2 class="types__title caption">
+            <span>Какие жучки</span> выявит наш специалист
+          </h2>
+          <div class="types__area">
+            <div class="types__box">
+              <picture class="types__picture">
+                <img
+                  class="types__image"
+                  src="statics/img/types/types-1.png"
+                  alt=""
+                />
+              </picture>
+              <div class="types__name">Скрытые камеры</div>
+              <img
+                class="types__number"
+                src="statics/img/types/types-number-1.png"
+                alt=""
+              />
+            </div>
+            <div class="types__box">
+              <picture class="types__picture">
+                <img
+                  class="types__image"
+                  src="statics/img/types/types-2.png"
+                  alt=""
+                />
+              </picture>
+              <div class="types__name">Радиожучки</div>
+              <img
+                class="types__number"
+                src="statics/img/types/types-number-2.png"
+                alt=""
+              />
+            </div>
+            <div class="types__box">
+              <picture class="types__picture">
+                <img
+                  class="types__image"
+                  src="statics/img/types/types-3.png"
+                  alt=""
+                />
+              </picture>
+              <div class="types__name">GSM закладки</div>
+              <img
+                class="types__number"
+                src="statics/img/types/types-number-3.png"
+                alt=""
+              />
+            </div>
+            <div class="types__box">
+              <picture class="types__picture">
+                <img
+                  class="types__image"
+                  src="statics/img/types/types-4.png"
+                  alt=""
+                />
+              </picture>
+              <div class="types__name">Проводные микрофоны</div>
+              <img
+                class="types__number"
+                src="statics/img/types/types-number-4.png"
+                alt=""
+              />
+            </div>
+            <div class="types__box">
+              <picture class="types__picture">
+                <img
+                  class="types__image"
+                  src="statics/img/types/types-5.png"
+                  alt=""
+                />
+              </picture>
+              <div class="types__name">Диктофоны</div>
+              <img
+                class="types__number"
+                src="statics/img/types/types-number-5.png"
+                alt=""
+              />
+            </div>
+            <div class="types__box">
+              <picture class="types__picture">
+                <img
+                  class="types__image"
+                  src="statics/img/types/types-6.png"
+                  alt=""
+                />
+              </picture>
+              <div class="types__name">Виброакустические закладки</div>
+              <img
+                class="types__number"
+                src="statics/img/types/types-number-6.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="rent rent_specialist">
+        <div class="rent__cont cont">
+          <div class="rent__header">
+            <div class="rent__header-box">
+              <h2 class="rent__caption caption">
+                <span>Стоимость</span> аренды со специалистом
+              </h2>
+              <div class="rent__caption-span">
+                Если вы находитесь в Москве и московской области - нет
+                небходимости арендовать комлект на сутки. Специалист приедет и
+                проверит ваш кабинет или квартиру. Рассчет стоимости будет
+                произведен исходя из площади обьекта.
+              </div>
+            </div>
+          </div>
+          <div class="rent__wrap">
+            <div class="rent__top">
+              <picture class="rent__picture">
+                <img
+                  class="rent__image"
+                  src="statics/img/rent/rent-1.jpg"
+                  alt=""
+                />
+              </picture>
+              <div class="rent__top-box">
+                <div class="rent__title">
+                  400 ₽ за кв. метр плозади помещения
+                </div>
+                <div class="rent__note">Минимальный заказ 20 000 ₽</div>
+                <a class="rent__send btn-yellow" href="#">Отправить заявку</a>
+              </div>
+            </div>
+            <div class="rent__headline">Условия аренды</div>
+            <div class="rent__area">
+              <div class="rent__condition">
+                <div class="rent__condition-top">
+                  <img
+                    class="rent__condition-icon"
+                    src="statics/img/rent/rent-icon-1.svg"
+                    alt=""
+                  />
+                  <div class="rent__condition-name">условие 1</div>
+                </div>
+                <div class="rent__condition-text">Нет залога</div>
+                <img
+                  class="rent__condition-image"
+                  src="statics/img/rent/rent-image-1.svg"
+                  alt=""
+                />
+              </div>
+              <div class="rent__condition">
+                <div class="rent__condition-top">
+                  <img
+                    class="rent__condition-icon"
+                    src="statics/img/rent/rent-icon-2.svg"
+                    alt=""
+                  />
+                  <div class="rent__condition-name">условие 2</div>
+                </div>
+                <div class="rent__condition-text">
+                  Не требует заключения договора
+                </div>
+                <img
+                  class="rent__condition-image"
+                  src="statics/img/rent/rent-image-2.svg"
+                  alt=""
+                />
+              </div>
+              <div class="rent__condition">
+                <div class="rent__condition-top">
+                  <img
+                    class="rent__condition-icon"
+                    src="statics/img/rent/rent-icon-3.svg"
+                    alt=""
+                  />
+                  <div class="rent__condition-name">условие 3</div>
+                </div>
+                <div class="rent__condition-text">Любые формы расчета</div>
+                <img
+                  class="rent__condition-image"
+                  src="statics/img/rent/rent-image-3.svg"
+                  alt=""
+                />
+              </div>
+              <div class="rent__condition">
+                <div class="rent__condition-top">
+                  <img
+                    class="rent__condition-icon"
+                    src="statics/img/rent/rent-icon-4.svg"
+                    alt=""
+                  />
+                  <div class="rent__condition-name">условие 4</div>
+                </div>
+                <div class="rent__condition-text">
+                  Выезд и доставка к Вам на объект
+                </div>
+                <img
+                  class="rent__condition-image"
+                  src="statics/img/rent/rent-image-4.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <p class="rent__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+            <div class="rent__box-arrow">
+              <div class="rent__arrow"></div>
+            </div>
+            <div class="rent__arrow-title caption">Это удобно!</div>
+            <p class="rent__text rent__text_center">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="feedback">
+        <div class="feedback__cont cont">
+          <div class="feedback__wrap">
+            <div class="feedback__inner">
+              <h2 class="feedback__title caption">
+                <span>Оставьте заявку</span> и получите оборудование и проверку
+              </h2>
+              <div class="feedback__text">
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old. Richard McClintock.
+              </div>
+            </div>
+            <div class="feedback__area">
+              <form class="feedback__box">
+                <div class="feedback__label">
+                  <div class="feedback__input-name">Имя</div>
+                  <input
+                    class="feedback__input"
+                    placeholder="Введите Ваше имя"
+                    type="text"
+                  />
+                </div>
+                <div class="feedback__label">
+                  <div class="feedback__input-name">Телефон</div>
+                  <input
+                    class="feedback__input"
+                    placeholder="+7 (___) ___ - __ - __"
+                    type="tel"
+                  />
+                </div>
+                <button class="feedback__submit btn-yellow">
+                  Отправить заявку
+                </button>
+                <div class="feedback__policy">
+                  Нажимая на кнопку «Отправить» Вы подтверждаете, что
+                  ознакомились с&nbsp;<a href="#"
+                    >Политикой конфиденциальности</a
+                  >
+                  и согласны на обработку персональных данных
+                </div>
+              </form>
+              <div class="feedback__note">
+                или позвоните нам по телефону:
+                <a class="link-underline" href="tel:+74951234567"
+                  >+7 (495) 123-45-67</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="description">
+        <div class="description__cont cont">
+          <h2 class="description__title caption">
+            <span>СЕО</span>
+            заголовок
+          </h2>
+          <div class="description__area">
+            <div class="description__box">
+              <p class="description__text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo,
+                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+                felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
+                Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+                Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac,
+                enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque
+                rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
+                Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
+                rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem
+                quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam
+                quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien
+                ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet
+                orci eget eros faucibus tincidunt. Duis leo. Sed fringilla
+                mauris sit amet nibh. Donec sodales sagittis magna. Sed
+                consequat, leo eget bibendum sodales, augue velit cursus nunc,
+                quis gravida magna mi a libero. Fusce vulputate eleifend sapien.
+                Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id,
+                metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis
+                hendrerit fringilla. Vestibulum ante ipsum primis in faucibus
+                orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi
+                consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu
+                tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.
+                Sed aliquam ultrices mauris. Integer ante arcu, accumsan a,
+                consectetuer eget, posuere ut, mauris. Praesent adipiscing.
+                Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus.
+                Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros
+                et nisl sagittis vestibulum.
+              </p>
+            </div>
+            <div class="description__box">
+              <p class="description__text">
+                Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet
+                feugiat, pede. Sed lectus. Donec mollis hendrerit risus.
+                Phasellus nec sem in justo pellentesque facilisis. Etiam
+                imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor,
+                tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula
+                sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.
+                Maecenas malesuada. Praesent congue erat at massa. Sed cursus
+                turpis vitae tortor. Donec posuere vulputate arcu. Phasellus
+                accumsan cursus velit. Vestibulum ante ipsum primis in faucibus
+                orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi
+                quis porttitor congue, elit erat euismod orci, ac placerat dolor
+                lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean
+                tellus metus, bibendum sed, posuere ac, mattis non, nunc.
+                Vestibulum fringilla pede sit amet augue. In turpis.
+                Pellentesque posuere. Praesent turpis. Aenean posuere, tor
+              </p>
+              <img
+                class="description__image"
+                src="statics/img/description/description-1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <p class="description__text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+            imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+            mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum
+            semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
+            porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem
+            ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+            nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
+            Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies
+            nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+            condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem
+            neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,
+            hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus.
+            Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+            Etiam sit amet orci eget eros faucibus tincidunt.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__cont cont">
+        <div class="footer__top">
+          <a class="footer__logo" href="/">
+            <img class="footer__logo-image" src="statics/img/logo.png" alt="" />
+            <div class="footer__logo-text">
+              Аренда
+              <span>Антижучков</span>.рф
+            </div>
+          </a>
+          <div class="footer__list">
+            <a class="footer__link link-underline" href="#">Поиск прослушки</a>
+            <a class="footer__link link-underline" href="#"
+              >Защита от прослушки</a
+            >
+            <a class="footer__link link-underline" href="#"
+              >Вызвать специалиста</a
+            >
+            <a class="footer__link link-underline" href="#">Полезные статьи</a>
+            <a class="footer__link link-underline" href="#">Контакты</a>
+          </div>
+        </div>
+        <div class="footer__area">
+          <a
+            class="footer__email link-underline"
+            href="mailto:hello@аренда-антижучков.рф"
+            >hello@аренда-антижучков.рф</a
+          >
+          <div class="footer__box">
+            <div class="footer__social">
+              <a class="footer__social-link" href="#" target="_blank">
+                <img
+                  class="footer__social-icon"
+                  src="statics/img/ic_social_tg.svg"
+                  alt=""
+                />
+              </a>
+              <a class="footer__social-link" href="#" target="_blank">
+                <img
+                  class="footer__social-icon"
+                  src="statics/img/ic_social_wp.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <a class="footer__phone link-underline" href="tel:+74951234567"
+              >+7 (495) 123-45-67</a
+            >
+            <a class="footer__button btn-yellow" href="#">Заказать звонок</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__policy">
+            © Аренда оборудования для поиска жучков «Аренда Антижучков». Все
+            права защищены.
+            <a class="link-underline" href="#">Политика конфиденциальности</a>.
+          </div>
+          <div class="footer__develop">
+            <div class="footer__develop-note">Разработка сайта</div>
+            <img
+              class="footer__develop-image"
+              src="statics/img/developer.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Input Mask -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="statics/js/libs.js"></script>
+    <script src="statics/js/app.js" async></script>
+    <link rel="prefetch" href="statics/css/equipment.css" as="style" />
+    <link rel="prefetch" href="statics/css/product.css" as="style" />
+    <link rel="prefetch" href="statics/css/specialist.css" as="style" />
+    <link rel="prefetch" href="statics/css/articles.css" as="style" />
+    <link rel="prefetch" href="statics/css/contacts.css" as="style" />
+    <link rel="prefetch" href="statics/css/post.css" as="style" />
+
+    <link rel="stylesheet" href="statics/css/addCss.css" />
+  </body>
+</html>
